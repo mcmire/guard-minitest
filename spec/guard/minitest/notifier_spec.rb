@@ -29,6 +29,7 @@ describe Guard::MinitestNotifier do
   end
 
   it 'should call Guard::Notifier' do
+    ENV['GUARD_NOTIFY'] = 'true'
     ::Guard::Notifier.expects(:notify).with(
       "1 examples, 2 assertions, 0 failures, 0 errors\nin 10.000000 seconds, 0.1000 tests/s, 0.2000 assertions/s.",
       :title => 'MiniTest results',

@@ -1,6 +1,6 @@
 # encoding: utf-8
 module Guard
   module MinitestVersion
-    VERSION = '1.0.1'
+    VERSION = '0.5.1'
   end
 end

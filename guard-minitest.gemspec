@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'guard/minitest/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'guard-minitest'
+  s.name        = 'mcmire-guard-minitest'
   s.version     = Guard::MinitestVersion::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Yann Lugrin']
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.description = 'Guard::Minitest automatically run your tests with MiniTest framework (much like autotest)'
 
   s.required_rubygems_version = '>= 1.3.6'
-  s.rubyforge_project         = 'guard-minitest'
+  s.rubyforge_project         = 'mcmire-guard-minitest'
 
   s.add_dependency 'guard', '~> 1.0'
 
